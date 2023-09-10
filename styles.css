@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pricing-table {
+    display: flex;
+  }
+  
+  .pricing-plan {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .basic {
+    background-color: #3498db;
+  }
+  
+  .pro {
+    background-color: #2ecc71;
+  }
+  
+  .premium {
+    background-color: #e74c3c;
+  }
+  
+  .plan-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .plan-price {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .plan-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feature {
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .feature:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
