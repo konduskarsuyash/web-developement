@@ -1,0 +1,660 @@
+        /* PAGE-1 */
+        body {
+            color: white;
+            font-family: 'Montserrat';
+            margin: 0;
+        }
+        .list a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .material-symbols-outlined {
+            position: relative;
+            top: 5px;
+            left: 5px;
+            font-size: 18px;
+        }
+
+        .page1 {
+            background-color: #8D5CF6;
+        }
+
+        .header {
+            display: flex;
+        }
+
+        .ulist {
+            display: flex;
+            list-style: none;
+            margin: 2rem 0 0 3rem;
+        }
+
+        .list {
+            margin-left: 2vw;
+
+        }
+
+        .left {
+            font-size: 24px;
+            margin: 3vh 0 0 12vw;
+        }
+
+        .right {
+            margin: 2vh 0 0 20vw;
+        }
+
+        .join_us {
+            font-family: 'Montserrat';
+            font-size: 14px;
+            color: white;
+            margin: 0 0 0 2vw;
+            padding: 15px 25px;
+            background-color: #FF7B52;
+            border: 1px solid #FF7B52;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 31vh;
+        }
+
+        h1 {
+            font-size: 58px;
+            margin: 25vh 0 1vh 0;
+            padding: 0 200px;
+        }
+
+        h4 {
+            font-size: 20px;
+            margin: 5vh 0;
+        }
+
+        .button2 {
+            border: 1px solid #FF7B52;
+            background-color: #FF7B52;
+            border-radius: 5px;
+            padding: 15px 40px;
+            font-size: 14px;
+            font-family: 'Montserrat';
+            color: white;
+        }
+
+        .button3 {
+            border: 1px solid #FF7B52;
+            background-color: #8D5CF6;
+            border-radius: 5px;
+            margin-left: 0.8vw;
+            padding: 15px 40px;
+            font-size: 14px;
+            font-family: 'Montserrat';
+            color: white;
+        }
+
+        /* PAGE-2 */
+        .page2 {
+            background-color: #26335D;
+            display: flex;
+            justify-content: center;
+        }
+
+        h6 {
+            color: #8D5CF6;
+            font-size: 14px;
+            margin: 0;
+            padding: 10vh 0 0 0;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin: 1vh 0 0 0;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        .page2_fp {
+            font-size: 14px;
+            padding: 0;
+        }
+
+        .page2_cards {
+            display: flex;
+            margin: 8vh 0 15vh 0;
+            height: 340px;
+            width: 1049px;
+        }
+
+        .card1,
+        .card2,
+        .card3,
+        .card4 {
+            background-color: white;
+            border: 2px solid white;
+            color: black;
+            padding: 35px 32px;
+            height: fit-content;
+        }
+
+        .card3,
+        .card3 p {
+            background-color: #8D5CF6;
+            border: 1px solid #8D5CF6;
+            color: white;
+        }
+
+        .card2,
+        .card4 {
+            margin: 48px 0 0 0;
+        }
+
+        .card2,
+        .card3,
+        .card4 {
+            margin-left: 30px;
+        }
+
+        .red {
+            background-color: #E74040;
+            border: 2px solid #E74040;
+            height: 2px;
+            width: 50px;
+        }
+
+        .page2_p {
+            font-size: 14px;
+            color: #737373;
+        }
+
+        /* PAGE-3 */
+        .page3 {
+            background-color: #26335D;
+            display: flex;
+            justify-content: center;
+        }
+
+        .img3 {
+            margin: 0;
+            height: 300px;
+            width: 238px;
+        }
+
+        .sale {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 60px;
+            height: 30px;
+            background-color: #E74040;
+            bottom: 230px;
+            color: white;
+            z-index: 2;
+            border-radius: 4px;
+        }
+
+        .product_actions {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: 123px;
+        }
+
+        .like,
+        .eye,
+        .cart {
+            width: 20px;
+            height: 20px;
+            margin: 12px 7px 0 0;
+            padding: 12px 12px;
+            background-color: white;
+            position: relative;
+            bottom: 64px;
+            border-radius: 50%;
+            color: #252B42;
+            left: 12px;
+
+        }
+
+        .p3img {
+            height: 300px;
+            width: 238px;
+        }
+
+        .page3_cards {
+            display: flex;
+            margin: 8vh 0 15vh 0;
+            height: 602px;
+            width: 1042px;
+        }
+
+        .p3card1,
+        .p3card2,
+        .p3card3,
+        .p3card4 {
+            background-color: white;
+            height: 602px;
+            width: 240px;
+        }
+
+        .p3card2,
+        .p3card3,
+        .p3card4 {
+            margin-left: 30px;
+        }
+
+        .p3subcard {
+            bottom: 50px;
+            position: relative;
+            color: black;
+            font-family: 'Montserrat';
+            margin: 0;
+            padding: 0px 25px 0px 25px;
+        }
+
+        .page3_cardp {
+            color: #737373;
+            font-family: 'Montserrat';
+            font-size: 14px;
+            margin: 10px 0 7px 0;
+        }
+
+        .p3h6 {
+            font-size: 14px;
+            color: #737373;
+            padding: 0;
+        }
+
+        .material-symbols-rounded {
+            font-size: 22px;
+            position: relative;
+            top: 5px;
+            padding: 0 5px 0 0;
+        }
+
+        .prices {
+            display: flex;
+        }
+
+
+        .price1 {
+            color: #BDBDBD;
+            font-size: 16px;
+            margin: 20px 0 0 0;
+        }
+
+        .price2 {
+            color: #FF7B52;
+            font-size: 16px;
+            margin: 20px 0 0 8px;
+        }
+
+        .learn {
+            background-color: white;
+            border: 1px solid #8D5CF6;
+            border-radius: 37px;
+            color: #8D5CF6;
+            font-family: 'Montserrat';
+            font-size: 14px;
+            margin: 20px 0 0 0;
+            padding: 10px 20px;
+        }
+
+        .learnmore {
+            padding: 0;
+        }
+
+        .material-symbols-sharp {
+            font-size: 15px;
+            font-weight: bold;
+            position: relative;
+            top: 2px;
+        }
+
+        .w {
+            color: #8D5CF6;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 5px 0 0 0;
+        }
+
+        .bl {
+            margin: 18px 0 0 0;
+        }
+
+        .rating1,
+        .rating4 {
+            color: white;
+            font-size: 12px;
+            background-color: #26335D;
+            border-radius: 20px;
+            margin: 0 0 0 35%;
+            padding: 5px 10px 5px 6px;
+        }
+
+        .rating2 {
+            color: white;
+            font-size: 12px;
+            background-color: #26335D;
+            border-radius: 20px;
+            margin: 0 0 0 43%;
+            padding: 5px 10px 5px 6px;
+        }
+
+        .rating3 {
+            color: white;
+            font-size: 12px;
+            background-color: #26335D;
+            border-radius: 20px;
+            margin: 0 0 0 4%;
+            padding: 5px 10px 5px 6px;
+        }
+
+        .welcome {
+            display: flex;
+        }
+
+        .star {
+            position: relative;
+            top: 2px;
+            height: 14px;
+            width: 14px;
+        }
+
+        /* PAGE-4 */
+        .page4 {
+            background-color: #26335D;
+            display: flex;
+            justify-content: center;
+            padding: 8vh 0 15vh 0;
+        }
+
+        .fourthpage {
+            display: flex;
+            justify-content: space-between;
+            width: 1045px;
+        }
+
+        .p4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .student {
+            height: 561px;
+            width: 532px;
+        }
+
+        .hrule {
+            background-color: #E74040;
+            height: 7px;
+            width: 94px;
+        }
+
+        .p4h2 {
+            margin: 3vh 0 3vh 0;
+        }
+
+        .p4h6 {
+            padding: 0;
+        }
+
+        .p4p {
+            margin: 1vh 0 5vh 0;
+        }
+
+        /* PAGE-5 */
+        .page5 {
+            background-color: #26335D;
+            display: flex;
+            justify-content: center;
+            padding: 8vh 0 15vh 0;
+        }
+
+        .fifthpage {
+            display: flex;
+            justify-content: space-between;
+            width: 1050px;
+        }
+
+        .p5 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .video {
+            height: 363px;
+            width: 508px;
+        }
+
+        .video_btn {
+            position: relative;
+            width: 90px;
+            height: 90px;
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            left: 200px;
+            bottom: 233px;
+            border-radius: 50%;
+            background-color: #8D5CF6;
+            border: none;
+
+        }
+
+        #video_symbol {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* PAGE-6 */
+        .page6 {
+            background-color: #26335D;
+            display: flex;
+            justify-content: center;
+            padding: 5vh 0 15vh 0;
+        }
+
+        .sixthpage {
+            width: 1050px;
+        }
+
+        .cardsp6 {
+            display: flex;
+        }
+
+        .p6card1,
+        .p6card2 {
+            background-color: white;
+            height: 400px;
+            width: 508px;
+            box-sizing: border-box;
+            padding: 30px;
+            margin-top: 80px;
+        }
+
+        .p6card2 {
+            margin-left: 30px;
+        }
+
+        .person {
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+        .p6p {
+            color: #737373;
+            font-size: 14px;
+            text-align: center;
+            margin: 3vh 0;
+        }
+
+        .stars5 {
+            display: block;
+            margin: auto;
+        }
+
+        .name {
+            color: #252B42;
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .designation {
+            color: #737373;
+            font-size: 14px;
+            text-align: center;
+            padding: 0;
+        }
+
+        /* PAGE-7 */
+        .page7 {
+            background-color: #26335D;
+            display: flex;
+            justify-content: center;
+        }
+
+        .cardspage7 {
+            display: flex;
+            margin: 15vh 0;
+        }
+
+        .p7card1,
+        .p7card2,
+        .p7card3,
+        .p7card4 {
+            background-color: white;
+            border-radius: 20px;
+            height: 375px;
+            width: 238px;
+        }
+
+        .p7card2,
+        .p7card3,
+        .p7card4 {
+            margin-left: 30px;
+        }
+
+        .teachers {
+            border-radius: 20px 20px 0 0;
+            height: 231px;
+            width: 238px;
+        }
+
+        .social {
+            display: block;
+            margin: 20px auto;
+        }
+
+        /* PAGE-8 */
+        .page8 {
+            background-color: #26335D;
+            display: flex;
+            justify-content: center;
+        }
+
+        .p8h2,
+        .p8h6,
+        .p8p {
+            text-align: center;
+        }
+
+        .form {
+            display: block;
+            margin: auto;
+        }
+
+        .textbox {
+            font-family: 'Montserrat';
+            border: 0px solid white;
+            border-radius: 6px;
+            height: 58px;
+            width: 688px;
+            margin: 10vh 0px 20vh 10vw;
+        }
+
+        .search {
+            border: 2cqb solid #8D5CF6;
+            border-radius: 0 6px 6px 0;
+            background-color: #8D5CF6;
+            color: #E6E6E6;
+            position: relative;
+            right: 7.7vw;
+            font-family: 'Montserrat';
+            height: 58px;
+            width: 117px;
+        }
+
+        /* PAGE-9 */
+        .footer {
+            background-color: #26335D;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #26335D;
+            padding: 70px 0;
+        }
+
+        .footer-col {
+            width: 13%;
+            padding: 0 15px;
+            margin:  0 23px 0 0;
+        }
+
+        .footer-col h4 {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 12px;
+            font-weight: 500;
+            position: relative;
+        }
+
+
+        .footer-col ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+        }
+
+        .footer-col h5{
+            left: 20%;
+            margin: 0 0 0 35px;
+        }
+
+        .footer-col ul li{
+            margin: 0 0 15px 0;
+        }
+
+        .footer-col ul li h6{
+            color: white;
+            padding: 0;
+            position: relative;
+            bottom: 27px;
+            left: 28px;
+            margin: 0;
+        }
